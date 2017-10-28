@@ -1,24 +1,29 @@
-# README
+# Minhas trilhas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um simples webservice para integração com o aplicativo MinhaBike para fins didáticos.
 
-Things you may want to cover:
+## INSTALANDO
 
-* Ruby version
+* Realize o download do projeto
 
-* System dependencies
+* Realize os seguintes commandos
+```bash
+bundle install
+```
+```bash
+rake db:create
+```
+```bash
+rake db:migrate
+```
 
-* Configuration
+```bash
+rake db:seed
+```
 
-* Database creation
+```bash
+rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Para consultar no postman, utilize o link
+http://localhost:3000/api/v1/trilhas
