@@ -6,7 +6,7 @@ Este é um simples webservice para integração com o aplicativo MinhaBike para 
 
 * Realize o download do projeto
 
-* Realize os seguintes commandos
+* Execute os seguintes commandos
 ```bash
 bundle install
 ```
