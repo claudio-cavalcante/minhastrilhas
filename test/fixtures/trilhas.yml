@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  latitude: 9.99
+  longitude: 9.99
+  distancia: 1.5
+  tempo_medio: 1
+
+two:
+  latitude: 9.99
+  longitude: 9.99
+  distancia: 1.5
+  tempo_medio: 1
