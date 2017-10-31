@@ -6,10 +6,12 @@ Este é um simples webservice para integração com o aplicativo MinhaBike para 
 
 * Realize o download do projeto
 
-* Execute os seguintes commandos para baixar as dependências e popular o banco:
+* Execute o comando abaixo para baixar (ou atualizar) as dependências
 ```bash
 bundle install
 ```
+
+* Execute os seguintes comandos para criar (ou atualizar) o banco
 ```bash
 rake db:create
 ```
@@ -17,9 +19,11 @@ rake db:create
 rake db:migrate
 ```
 
+* Execute os seguintes comandos para popular o banco
 ```bash
 rake db:seed
 ```
+
 * Execute o seguinte comando para iniciar o servidor:
 ```bash
 rails s
