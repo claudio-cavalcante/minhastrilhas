@@ -24,7 +24,7 @@ rake db:migrate
 rake db:seed
 ```
 `
-* Execute o seguinte comando para iniciar o servidor:
+* Inicie o servidor:
 ```bash
 rails s
 ```
