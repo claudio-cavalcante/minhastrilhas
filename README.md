@@ -31,7 +31,7 @@ rails s
 `
 `
 ## ACESSANDO
-`
+
 * Para consultar as trilhas, utilize o link
 http://localhost:3000/api/v1/trilhas
 `
