@@ -5,6 +5,7 @@ class CreateTrilhas < ActiveRecord::Migration[5.1]
       t.decimal :longitude
       t.float :distancia
       t.integer :tempo_medio
+      t.string :categoria
 
       t.timestamps
     end

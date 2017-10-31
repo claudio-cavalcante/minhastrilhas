@@ -3,4 +3,5 @@ class Trilha < ApplicationRecord
     validates :longitude, presence: true
     validates :distancia, presence: true
     validates :tempo_medio, presence: true
+    validates :categoria, presence: true
 end

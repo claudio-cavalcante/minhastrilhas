@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20171028174742) do
     t.decimal "longitude"
     t.float "distancia"
     t.integer "tempo_medio"
+    t.string "categoria"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

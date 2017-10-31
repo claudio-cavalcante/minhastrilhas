@@ -5,9 +5,11 @@ one:
   longitude: 9.99
   distancia: 1.5
   tempo_medio: 1
+  categoria: "Fixa"
 
 two:
   latitude: 9.99
   longitude: 9.99
   distancia: 1.5
   tempo_medio: 1
+  categoria: "Speed"
