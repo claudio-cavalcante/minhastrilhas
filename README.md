@@ -6,30 +6,30 @@ Este é um simples webservice para integração com o aplicativo MinhaBike para 
 
 * Realize o download do projeto
 
-* Baixe (ou atualize) as dependências:
+##### 1. Baixe (ou atualize) as dependências:
 ```bash
 bundle install
 ```
-`
-* Crie (ou atualize) o banco
+
+##### 2. Crie (ou atualize) o banco
 ```bash
 rake db:create
 ```
 ```bash
 rake db:migrate
 ```
-`
-* Popule o banco
+
+##### 3. Popule o banco
 ```bash
 rake db:seed
 ```
-`
-* Inicie o servidor:
+
+##### 4.  Inicie o servidor:
 ```bash
 rails s
 ```
-`
-`
+
+
 ## ACESSANDO
 
 * Para consultar as trilhas, utilize o link
