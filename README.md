@@ -29,5 +29,8 @@ rake db:seed
 rails s
 ```
 `
-* Para consultar no postman, utilize o link
+* Para consultar as trilhas, utilize o link
 http://localhost:3000/api/v1/trilhas
+`
+* Para consultar as bikes (do webservice do aplicativo https://github.com/viniciustads/MinhaBike), utilize o link
+http://localhost:3000/api/v1/bikes
